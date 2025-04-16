@@ -1,0 +1,62 @@
+body{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.home{
+    background-color:rgb(249, 129, 249)
+}
+
+.about{
+    background-color: rgb(249, 129, 249);
+}
+
+.portfolio{
+    background-color: rgb(249, 129, 249);
+}
+
+h1{
+    color: black;
+    text-align: left
+}
+nav{
+    text-align: right;
+    padding: 20px;
+}
+a{
+    font-size: 20px;
+    margin-right: 40px;
+    color: black;
+    text-decoration: none;
+    text-align: justify;
+}
+p{
+    text-align: justify;
+    font-size: 15px;
+}
+.name{
+    text-align: left;
+}
+.colorado {
+    display: grid;
+    align-items: center; 
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 5px;
+   }
+   
+   img {
+     max-width: 500px;
+     padding: 20px;
+   }
+   
+   .text {
+     font-size: 40px;
+   }
+.pets {
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 5px;
+   }
+   img {
+    max-width: 500px;
+   }
