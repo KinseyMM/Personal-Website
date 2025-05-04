@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me</title>
+    <link rel="stylesheet" href="/index.css">
+    <script defer src="/index.js"></script>
+</head>
+<body class="contact">
+    <nav>
+        <div id="name">
+            <h1>Kinsey Moore</h1>
+        </div>
+        <div id="links">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="portfolio.html">Portfolio</a>
+            <a href="contact.html">Contact</a>
+        </div>
+    </nav>
+    <section>
+        <h2>Contact Me</h2>
+        <div class="grid-container">
+         <form action="./submission.html">
+            <label for="name">Name</label>
+            <input name="name" type="text" id="first_name"/>
+            <br>
+            <label for="phone">Phone Number</label>
+            <input name="phone" id="phone" type="tel" required/>
+            <br>
+            <label for="email">Email</label>
+            <input name="email" id="email" type="email"/>
+            <br>
+            <label for="message">Message</label>
+            <textarea id="message" name="message" cols="50" rows="4" maxlength="200"></textarea>
+            <br>
+            <input type="submit"/>
+         </form>
+        </div>
+    </section>
+</body>
+</html>
